@@ -75,10 +75,28 @@ ul li::before{
 }
 ul li.checked{
     color: #555;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
 }
 ul li.checked::before{
     background-image: url(images/checked.png);
+}
+ul li button{
+    border: none;
+    outline: none;
+    padding: 12px 40px;
+    background: #4586ff;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li button:active{
+    background: #044cd1;
 }
 ul li span{
     position: absolute;
